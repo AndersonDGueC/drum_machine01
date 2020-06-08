@@ -25,14 +25,14 @@ class BottonPad extends Component{
         const id=e.key.toUpperCase();
         const audio=document.getElementById(id);
        
-        if(audio){
+        if(id===this.props.letter){
             
             const fond=audio.parentNode;
             fond.classList.add('active')
             setTimeout(()=>{fond.classList.remove('active')},300);
             audio.volume=this.props.vol;
             audio.play();
-            this.props.funcTono(id)
+            this.sendDataParent()
         }
         
         
