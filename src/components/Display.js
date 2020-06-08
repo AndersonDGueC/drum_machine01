@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Display=()=>{
+const Display=({pintar})=>{
     return(
         <div id="display">
-            <h1>Hola</h1>
+            <h1>{pintar}</h1>
         </div>
     )
 }

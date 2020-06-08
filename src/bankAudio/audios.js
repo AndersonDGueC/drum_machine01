@@ -1,51 +1,4 @@
-const bankZero=[
-  {
-    keyCode: 81,
-    keyTrigger: 'Q',
-    id: 'q-81',
-    url: undefined
-  }, {
-    keyCode: 87,
-    keyTrigger: 'W',
-    id: 'w-87',
-    url: undefined
-  }, {
-    keyCode: 69,
-    keyTrigger: 'E',
-    id: 'e-69',
-    url: undefined
-  }, {
-    keyCode: 65,
-    keyTrigger: 'A',
-    id: 'a-85',
-    url: undefined
-  }, {
-    keyCode: 83,
-    keyTrigger: 'S',
-    id: 's-83',
-    url: undefined
-  }, {
-    keyCode: 68,
-    keyTrigger: 'D',
-    id: 'd-68',
-    url: undefined
-  }, {
-    keyCode: 90,
-    keyTrigger: 'Z',
-    id: 'z-90',
-    url: undefined
-  }, {
-    keyCode: 88,
-    keyTrigger: 'X',
-    id: 'x-88',
-    url: undefined
-  }, {
-    keyCode: 67,
-    keyTrigger: 'C',
-    id: 'c-67',
-    url: undefined
-  },
-];
+
 
 const bankOne = [{
     keyCode: 81,
@@ -143,4 +96,4 @@ const bankTwo = [{
     url: 'https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3'
   }];
 
-  export default {bankZero,bankOne,bankTwo}
+  export default {bankOne,bankTwo}
